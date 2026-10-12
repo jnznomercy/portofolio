@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta
+      name="description"
+      content="Portofolio Achmad Jhanu Bintang, mahasiswa Informatika dan web developer pemula."
+    >
+    <title>Jhanu Bintang | Portofolio</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Lewati ke konten utama</a>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navigasi utama">
+        <a class="brand" href="#main" aria-label="Achmad Jhanu Bintang, beranda">
+          <span class="brand-mark">JB</span>
+          <span>jbintang</span>
+        </a>
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Buka menu navigasi"
+          aria-expanded="false"
+          aria-controls="navLinks"
+        >
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-links" id="navLinks">
+          <a href="#main" aria-current="page">Beranda</a>
+          <a href="#project">Project</a>
+          <a href="#kontak">Kontak</a>
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            type="button"
+            aria-label="Aktifkan mode gelap"
+            title="Ganti tema"
+          >
+            <span id="themeIcon" aria-hidden="true">☾</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero container section" aria-labelledby="hero-title">
+        <div>
+          <p class="eyebrow">TERBUKA UNTUK PELUANG BELAJAR</p>
+          <h1 id="hero-title">Merancang ide.<br><span>Membangun</span> pengalaman digital.</h1>
+          <p class="hero-description">Halo, saya <strong>Achmad Jhanu Bintang</strong>, mahasiswa
+            Informatika yang tertarik pada pengembangan web, desain antarmuka, dan teknologi yang
+            bermanfaat.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#project">Lihat project <span aria-hidden="true">
+              ↗</span></a>
+            <a class="button button-secondary" href="#kontak">Hubungi saya</a>
+          </div>
+          <ul class="social-links social-big" aria-label="Media sosial dan kontak">
+            <li>
+              <a
+                href="https://instagram.com/jhn.bintang"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                title="Instagram"
+              >
+                <img src="images/instagram.svg" alt="" width="20" height="20">
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/jnznomercy"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="GitHub"
+                title="GitHub"
+              >
+                <img src="images/github.svg" alt="" width="20" height="20">
+              </a>
+            </li>
+            <li>
+              <a href="mailto:jhanubintang123@gmail.com" aria-label="Kirim email" title="Email">
+                <img src="images/email.svg" alt="" width="20" height="20">
+              </a>
+            </li>
+          </ul>
+          <div class="hero-meta">
+            <div>
+              <span class="meta-label">BERFOKUS PADA</span>
+              <strong>Web Development · UI/UX</strong>
+            </div>
+            <div>
+              <span class="meta-label">BERBASIS DI</span>
+              <strong>Indonesia</strong>
+            </div>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="images/foto.png" alt="Foto Achmad Jhanu Bintang" width="270" height="320">
+        </div>
+        <a class="scroll-cue" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+      </section>
+      
+      <section class="about section container" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">01 / TENTANG SAYA</p>
+          <h2 id="about-title">Sedikit tentang<br><span>perjalanan saya.</span></h2>
+        </div>
+        <div class="about-content">
+          <p class="about-lead">Saya percaya hal digital yang baik bukan hanya terlihat menarik,
+            tetapi juga mudah digunakan.</p>
+          <p>Saat ini saya mengembangkan kemampuan di bidang teknologi informasi, mulai dari
+            membangun halaman web sampai memahami pengalaman pengguna.</p>
+          <p>Saya mulai dari HTML dan CSS, lalu terus berlatih membuat halaman yang rapi, responsif, dan
+            nyaman dibaca di berbagai ukuran layar. Dari situ saya menambahkan interaksi dengan
+            JavaScript, seperti mode gelap, menu navigasi, dan validasi formulir.</p>
+          <p>Selain menulis kode, saya juga suka merancang tampilan di Figma. Landing page Ngopskuyy
+            dan rancangan aplikasi KantongKampus adalah cara saya berlatih menghubungkan desain
+            dengan hasil yang benar-benar bisa dipakai.</p>
+          <p>Saya masih terus belajar, dan terbuka untuk berdiskusi, berkolaborasi, atau menerima
+            masukan.</p>
+          <div class="skill-list" aria-label="Daftar kemampuan">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Figma</span>
+          </div>
+          <div class="timeline-intro">
+            <p class="eyebrow">PERJALANAN PENDIDIKAN</p>
+            <p>Dari bangku SMA sampai kuliah Informatika, saya terus memperdalam ilmu teknologi,
+              dengan fokus pada pengembangan web dan desain antarmuka (UI/UX).</p>
+          </div>
+          <ul class="timeline">
+            <li><strong>2025 sampai sekarang</strong>S1 Informatika, Universitas Teknologi
+              Yogyakarta</li>
+            <li><strong>2023 sampai 2025</strong>SMA Negeri 4 Yogyakarta</li>
+          </ul>
+        </div>
+      </section>
+      <section class="projects section" id="project" aria-labelledby="project-title">
+      <div class="container">
+        <div class="projects-heading">
+          <div>
+            <p class="eyebrow">02 / KARYA PILIHAN</p>
+            <h2 id="project-title">Beberapa hal yang<br><span>
+              saya bangun.</span></h2>
+          </div>
+          <p class="section-note">Klik tombol panah pada tiap project untuk melihat detailnya.</p>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-visual visual-coffee">
+              <img
+                src="images/ngopskuyy.png"
+                alt="Tampilan halaman website Ngopskuyy"
+                loading="lazy"
+              >
+              <span class="visual-index">PROJECT / 01</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <p class="project-type">FRONT-END · BRANDING</p>
+                <h3>Ngopskuyy</h3>
+                <p>Landing page brand kopi lokal dengan bagian tentang kami, keunggulan, menu
+                  favorit, dan tautan media sosial.</p>
+              </div>
+              <button
+                type="button"
+                class="project-arrow detail"
+                aria-label="Detail project Ngopskuyy"
+                data-judul="Ngopskuyy"
+                data-detail="Landing page satu halaman untuk brand kopi lokal. Berisi pengenalan
+                  brand, visi dan misi, keunggulan, menu favorit (Espresso, Cappuccino,
+                  Kopi Susu Aren), serta tautan WhatsApp, Instagram, dan TikTok."
+                data-live="https://jnznomercy.github.io/ngopskuy/"
+                data-repo="ngopskuy"
+              >↗</button>
+            </div>
+            <div class="project-tags">
+              <span>Landing Page</span>
+              <span>Branding</span>
+            </div>
+          </article>
+
+          <article class="project-card project-featured">
+            <div class="project-visual visual-kantong">
+              <img
+                src="images/kantongkampus.png"
+                alt="Rancangan 10 layar aplikasi KantongKampus: beranda, tambah transaksi, keuangan, statistik, profil, dan pengaturan"
+                loading="lazy"
+              >
+              <span class="visual-index">PROJECT / 02</span>
+            </div>
+            <div class="project-info">
+              <div>
+                <p class="project-type">UI/UX · MOBILE APP</p>
+                <h3>KantongKampus</h3>
+                <p>Rancangan antarmuka aplikasi pencatat keuangan untuk mahasiswa, dengan pencatatan
+                  transaksi, budget bulanan, statistik, dan pilihan tema.</p>
+              </div>
+              <button
+                type="button"
+                class="project-arrow detail"
+                aria-label="Detail project KantongKampus"
+                data-judul="KantongKampus"
+                data-detail="Desain UI aplikasi mobile untuk membantu mahasiswa mengatur uang saku. Terdiri dari 10 layar: beranda dengan ringkasan saldo, tambah transaksi, daftar transaksi, budget bulanan, statistik pengeluaran per kategori, profil, pengaturan, tema terang/gelap dengan pilihan warna aksen, dan pengaturan notifikasi."
+              >↗</button>
+            </div>
+            <div class="project-tags">
+              <span>UI Design</span>
+              <span>Mobile App</span>
+              <span>Figma</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+      <section class="contact section container" id="kontak" aria-labelledby="kontak-title">
+      <div class="contact-panel">
+        <div class="contact-copy">
+          <p class="eyebrow">03 / HUBUNGI SAYA</p>
+          <h2 id="kontak-title">Punya ide?<br><span>
+            Mari ngobrol.</span></h2>
+          <p>Terbuka untuk diskusi, kolaborasi, atau kesempatan belajar baru.</p>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-field">
+            <label for="name">Nama</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Nama kamu"
+              autocomplete="name"
+              required
+            >
+            <small class="field-error" id="nameError"></small>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="nama@email.com"
+              autocomplete="email"
+              required
+            >
+            <small class="field-error" id="emailError"></small>
+          </div>
+          <div class="form-field">
+            <label for="message">Pesan</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="3"
+              placeholder="Ceritakan ide kamu..."
+              required
+            ></textarea>
+            <small class="field-error" id="messageError"></small>
+          </div>
+          <button class="button button-primary form-submit" type="submit">Kirim pesan <span aria-hidden="true">
+            ↗</span></button>
+          <p class="form-note">Demo formulir: validasi berjalan di browser dan belum mengirim pesan
+            ke server.</p>
+        </form>
+      </div>
+    </section>
+    </main>
+    <dialog id="modal" aria-labelledby="modalTitle">
+      <p class="eyebrow" id="modalEyebrow"></p>
+      <h2 id="modalTitle"></h2>
+      <p id="modalBody"></p>
+      <div class="page-links">
+        <a
+          class="button button-primary"
+          id="modalLive"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          hidden
+        >Buka website ↗</a>
+        <a
+          class="button button-secondary"
+          id="modalLink"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          hidden
+        >Lihat di GitHub ↗</a>
+        <button type="button" class="button button-secondary" id="modalClose">Tutup</button>
+      </div>
+    </dialog>
+    <footer class="footer">
+      <div class="container footer-inner">
+        <a class="brand" href="#main">
+          <span class="brand-mark">JB</span>
+          <span>jbintang</span>
+        </a>
+        <p>Dirancang dengan rasa ingin tahu <span aria-hidden="true">✳</span> © <span id="year"></span>
+          Achmad Jhanu Bintang</p>
+        <ul class="social-links" aria-label="Media sosial dan kontak">
+          <li>
+            <a
+              href="https://instagram.com/jhn.bintang"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram"
+              title="Instagram"
+            >
+              <img src="images/instagram.svg" alt="" width="20" height="20">
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/jnznomercy"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+              title="GitHub"
+            >
+              <img src="images/github.svg" alt="" width="20" height="20">
+            </a>
+          </li>
+          <li>
+            <a href="mailto:jhanubintang123@gmail.com" aria-label="Kirim email" title="Email">
+              <img src="images/email.svg" alt="" width="20" height="20">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+    <button class="to-top" id="toTop" type="button" aria-label="Kembali ke atas">↑</button>
+  </body>
+</html>
